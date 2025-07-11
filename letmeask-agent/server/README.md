@@ -88,6 +88,9 @@ A API estará disponível em `http://localhost:3333`
 
 - `GET /healthcheck`- Health check da aplicação
 - `GET /rooms` - Lista as salas disponíveis
+- `GET /rooms/:roomId/questions`- Lista as perguntas de uma sala
+- `POST /rooms` - Cria uma sala de perguntas
+- `POST /rooms/:roomId/questions`- Cria perguntas em uma sala específica
 
 ---
 

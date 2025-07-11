@@ -1,0 +1,20 @@
+# Variables
+@baseUrl = "http://localhost:3333"
+
+# Health Check
+GET {{baseUrl}}/healthcheck
+
+### 
+
+# Get Rooms
+GET {{baseUrl}}/rooms
+
+###
+
+# Create Room
+POST {{baseUrl}}/rooms/1
+
+{
+  "name": "Sala de teste",
+  "description": "Essa é uma sala de teste",
+}
